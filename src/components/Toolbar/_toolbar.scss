@@ -1,0 +1,93 @@
+@import '../../styles/variables';
+
+.toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: $navbarBackgroundColor;
+    height: 60px;
+    z-index: 200;
+  }
+  
+  .toolbar_navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0rem 1rem;
+    justify-content: space-around;
+  }
+  
+  .toolbar_logo {
+    margin-left: 6%;
+    
+  }
+  
+  .spacer {
+    flex: 1;
+  }
+  
+  .toolbar_navigation_items {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      margin-right: 1px;
+    }
+  
+    li {
+      padding: 0 0.5rem;
+    }
+  
+    ul li a {
+      text-decoration: none;
+      font-family: $monseratFont;
+      font-size: 0.9rem;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: $menuTextColor;
+    }
+  
+    a {
+      &:hover, &:active {
+        color: $menuTextHoverColor;
+      }
+    }
+  }
+
+  .dropdown_button {
+    margin-right: 6%;
+  }
+
+  .mobileSearchBar {
+    display: none;
+  }
+  .smallLogo {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .toolbar_navigation_items {
+      display: none;
+    }
+    .mobileSearchBar {
+      display: inline;
+      flex-grow: 1;
+    }
+    .smallLogo {
+      margin-left: 6%;
+      display: inline;
+    }
+    .toolbar_logo {
+      display: none;
+      flex-shrink: 0;
+    } 
+    .spacer {
+      display: none;
+    }
+
+  }

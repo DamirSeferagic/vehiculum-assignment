@@ -1,0 +1,31 @@
+@import '../../styles/variables';
+
+.toggle-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 25px;
+    width: 35px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0px;
+    box-sizing: border-box;
+    padding-right: 4rem;
+  
+    &:focus {
+      outline: none;
+    }
+  }
+  
+  .toggle-button__line {
+    width: 30px;
+    height: 1px;
+    background: $menuTextColor;
+  }
+  
+  @media (min-width: 769px) {
+    .toggle-button {
+      display: none;
+    }
+  }

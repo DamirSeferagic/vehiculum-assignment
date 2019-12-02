@@ -1,0 +1,111 @@
+@import '../../styles/variables';
+@import '../../styles/mixins.scss';
+@import '../SearchBar/components/largeSearchBar';
+@import '../SearchBar/components/searchButton';
+@import '../SearchBar/components/smallSearchBar';
+
+.banner {
+    background-position: center;
+    background-size: cover;
+    
+    width: 100%;
+    margin-top: 60px;
+
+    @include breakpoint (xs) {
+        height: 220px;
+    }
+    @include breakpoint (sm) {
+        height: 260px;
+    }
+    @include breakpoint (ipad-portrait ) {
+        height: 280px;
+    }
+    @include breakpoint (md) {
+        height: 300px;
+    }
+    @include breakpoint (lg) {
+        height: 320px;
+    }
+
+
+
+  }
+
+.banner-items {
+    position: relative;
+    top: -86%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  
+.banner img {
+    height : 100%;
+    width: 100%;
+  }
+
+
+
+.title {
+        font-family: $monseratFont;
+        
+        font-weight: 100;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: #cfb995;
+        @include breakpoint (xs) {
+            font-size: 22px;
+        }
+        @include breakpoint (sm) {
+            font-size:30px;
+        }
+        @include breakpoint (ipad-portrait ) {
+            font-size:35px;
+        }
+        @include breakpoint (md) {
+            font-size: 40px
+        }
+        @include breakpoint (lg) {
+            font-size: 48px;
+        }
+    
+
+  }
+
+.subtitle {
+        font-family: $monseratFont;
+        font-size: 22px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: $menuTextColor;
+
+        @include breakpoint (xs) {
+            font-size: 12px;
+        }
+        @include breakpoint (sm) {
+            font-size: 16px;
+        }
+        @include breakpoint (ipad-portrait ) {
+            font-size: 18px;
+        }
+        @include breakpoint (md) {
+            font-size: 20px;
+        }
+        @include breakpoint (lg) {
+            font-size: 22px;
+        }   
+  }
+
+  
+     
+
+
+

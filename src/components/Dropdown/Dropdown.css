@@ -1,0 +1,45 @@
+.jokesDropdown {
+  background-color: #cfb995;
+  height: 100%;
+  font-family: Monserat;
+  color: #ffffff;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dropdownButton {
+  min-width: 190px;
+}
+
+.buttonImg {
+  margin: 1.2rem 0.5rem 1.2rem 1rem;
+}
+
+.dropdownList {
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100%;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdownList a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom: solid 1px #d7d7d7;
+  margin: 0 5px;
+}
+
+.dropdown-item {
+  color: black;
+}
+
+.newJokeLink {
+  color: #cfb995;
+}
+/*# sourceMappingURL=Dropdown.css.map */

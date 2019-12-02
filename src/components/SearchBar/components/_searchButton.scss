@@ -1,0 +1,21 @@
+.search-btn {
+  position: relative;
+  left: 1rem;
+  bottom: -0.5rem;
+  width: 4em;
+  background-color: transparent;
+  border: 0;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-image: url("../images/search-copy@2x.png");
+  height: unset;
+}
+.search-btn:hover {
+  outline: none;
+  opacity: 0.4;
+  cursor: pointer;
+}
+.search-btn:focus {
+  outline: none;
+  opacity: 0.6;
+}

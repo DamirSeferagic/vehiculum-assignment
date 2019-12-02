@@ -1,0 +1,16 @@
+@import "../../styles/mixins.scss";
+
+.search-box-large {
+
+  @include navigation-searchbar;
+}
+.search-input {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+}
+
+::placeholder {
+  padding-left: 1em;
+  color: $placeholderTextColor;
+}
