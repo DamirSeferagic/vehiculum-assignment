@@ -2,7 +2,7 @@ import React, {Component, Fragment } from 'react';
 import Media from 'react-media';
 import bitmap from './images/bitmap@2x.png';
 import './Banner.scss';
-import SearchBar from '../../components/SearchBar/SearchBar';
+import SearchBar from '../SearchBar/SearchBar';
 
 class Banner extends Component {
     render() {

@@ -1,5 +1,8 @@
 import React, {Component } from 'react';
 
+import Dropdown from '../Dropdown/Dropdown';
+import logo from '../Toolbar/images/logo-horizontal-1.png';
+
 class SideDrawer extends Component {
 
 
@@ -10,16 +13,24 @@ class SideDrawer extends Component {
         }
         return (
             <div>
+
                 <nav className={drawerClasses}>
                     <ul>
-                        <li>
+                        <li className="logo-list-element">
+                            <img src={logo}/>
+                        </li>
+                        <li className="link-list-element">
                             <a href="\">SO FUNKTIONIERT'S</a>
                         </li>
-                        <li>
+                        <li className="link-list-element">
                             <a href="\">SONDERANGEBOTE</a>
                         </li>
-                    </ul>
-                </nav>                
+                        <li className="dropdown-list-element">
+                        <Dropdown />
+                        </li>
+                    </ul>  
+                </nav>
+             
             </div>
         ) 
     }

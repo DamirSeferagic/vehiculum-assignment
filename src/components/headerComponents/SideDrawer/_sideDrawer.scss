@@ -1,4 +1,4 @@
-@import '../../styles/variables';
+@import '../../../styles/variables';
 
 .side-drawer {
     height: 100%;
@@ -22,7 +22,9 @@
       list-style: none;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      //justify-content: center;
+      padding-inline-start: 1em;
+      padding-inline-end: 1em
     }
   
     li {
@@ -39,7 +41,13 @@
       }
     }
   }
-  
+  .logo-list-element {
+    padding-bottom: 2em;
+  }
+  .link-list-element {
+    border-bottom: 1px solid wheat;
+    padding-bottom: 0.5em;
+  }
   @media (min-width: 769px) {
     .side-drawer {
       display: none;

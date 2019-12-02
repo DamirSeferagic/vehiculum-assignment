@@ -1,5 +1,5 @@
-@import '../../styles/variables';
-@import '../../styles/mixins.scss';
+@import '../../../styles/variables';
+@import '../../../styles/mixins.scss';
 @import '../SearchBar/components/largeSearchBar';
 @import '../SearchBar/components/searchButton';
 @import '../SearchBar/components/smallSearchBar';
@@ -9,7 +9,7 @@
     background-size: cover;
     
     width: 100%;
-    margin-top: 60px;
+   margin-top: 60px;
 
     @include breakpoint (xs) {
         height: 220px;

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
 import './App.scss';
-import Toolbar from './components/Toolbar/Toolbar';
-import SideDrawer from './components/SideDrawer/SideDrawer';
-import BackDrop from './components/Backdrop/Backdrop';
-import Banner from './components/Banner/Banner';
+import Toolbar from './components/headerComponents/Toolbar/Toolbar';
+import SideDrawer from './components/headerComponents/SideDrawer/SideDrawer';
+import BackDrop from './components/headerComponents/Backdrop/Backdrop';
+import Banner from './components/headerComponents/Banner/Banner';
 
 class App extends Component {
 

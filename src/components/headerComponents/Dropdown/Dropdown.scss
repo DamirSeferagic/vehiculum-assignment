@@ -1,4 +1,4 @@
-@import '../../styles/variables';
+@import '../../../styles/variables';
 
 .jokesDropdown {
     background-color: $menuButtonBackgroundColor;
@@ -21,7 +21,7 @@
 .dropdownList {
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 100%;
+    min-width: 192px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
@@ -33,11 +33,11 @@
     margin: 0 5px;
 }
 .dropdown-item {
-    color: black;
+    color: black !important;
 }
 
 .newJokeLink{
-    color: #cfb995;
+    color: #cfb995 !important;
 }
 
 
