@@ -12,10 +12,11 @@ class JokeBox extends Component {
                     <h1>{this.props.title.toUpperCase()}</h1>
                 </div>
                 <p>{this.props.text}</p>
-                <div className="see-stats-button">
+                {/* <div className="see-stats-button">
                     <button>SEE STATS</button>
                     <img src={arrowRight} />
-                </div>
+                </div> */}
+                <button>SEE STATS</button>
             </div>
         )
     }

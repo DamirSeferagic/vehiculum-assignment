@@ -61,3 +61,23 @@
   letter-spacing: normal;
   color: #cfb995;
 }
+
+@mixin transparentButton {
+  background-image: url('../components/bodyComponents/JokeContainer/JokeBox/images/path-copy-2.png');
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: right;
+ 
+  background-color: transparent;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #cfb995;
+  text-align: left;
+  padding-left: 0;
+}
