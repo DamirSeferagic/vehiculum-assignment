@@ -4,7 +4,7 @@ import CategoryButton from './CategoryButton'
 import './JokeCategoryContainer.scss';
 
 
-class JokeCategoryContainer extends React.Component {
+class JokeCategoryContainer extends Component {
 
     constructor() {
         super();

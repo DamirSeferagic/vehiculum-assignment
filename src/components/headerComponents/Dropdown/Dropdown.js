@@ -23,16 +23,15 @@ class Dropdown extends Component {
         this.setState((prevState) => {
             return {showMenu: !prevState.showMenu};
         });
-        //.style.width = elementWidth;
     };
 
     render() {
         return (
             <div className="dropdownButton">
                 <button className="jokesDropdown"  onClick={this.showMenu}>
-                    <img src={shape} className="buttonImg"></img>
+                    <img src={shape} alt='person placeholder' className="buttonImg"></img>
                     <p className="buttonText">MEIN BEREICH</p>
-                    <img src={path} className="buttonImg"></img>
+                    <img src={path} alt='arrow down' className="buttonImg"></img>
                 </button>
                 
                 {

@@ -43,8 +43,17 @@
   }
 }
 
+@mixin  standardTextStyles {
+  font-family: $monseratFont;
+  text-align: center;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
 @mixin jokeText {
-  font-family: $monseratFont;  
+  font-family: $monseratFont;
   font-stretch: normal;
   font-style: normal;
   letter-spacing: normal;
@@ -62,15 +71,32 @@
   color: #cfb995;
 }
 
+@mixin bannerHeight {
+  @include breakpoint(xs) {
+    height: 190px;
+  }
+  @include breakpoint(sm) {
+    height: 220px;
+  }
+  @include breakpoint(ipad-portrait) {
+    height: 280px;
+  }
+  @include breakpoint(md) {
+    height: 300px;
+  }
+  @include breakpoint(lg) {
+    height: 320px;
+  }
+}
+
 @mixin transparentButton {
-  background-image: url('../components/bodyComponents/JokeContainer/JokeBox/images/path-copy-2.png');
+  background-image: url("../components/bodyComponents/JokeContainer/JokeBox/images/path-copy-2.png");
   background-repeat: no-repeat;
   background-color: transparent;
   background-position: right;
- 
   background-color: transparent;
   border: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: $monseratFont;
   font-size: 14px;
   font-weight: 600;
   font-stretch: normal;

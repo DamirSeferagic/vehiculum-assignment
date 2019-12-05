@@ -3,7 +3,7 @@ import React, {Component } from 'react';
 class Backdrop extends Component {
 
     render() {
-        return <div class="backdrop" onClick={this.props.click}/>
+        return <div className="backdrop" onClick={this.props.click}/>
     }
 }
 

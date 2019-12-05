@@ -16,16 +16,16 @@ class SideDrawer extends Component {
 
                 <nav className={drawerClasses}>
                     <ul>
-                        <li className="logo-list-element">
-                            <img src={logo}/>
+                        <li className='logo-list-element'>
+                            <img src={logo} alt='logo'/>
                         </li>
-                        <li className="link-list-element">
-                            <a href="\">SO FUNKTIONIERT'S</a>
+                        <li className='link-list-element'>
+                            <a href='#'>SO FUNKTIONIERT'S</a>
                         </li>
-                        <li className="link-list-element">
-                            <a href="\">SONDERANGEBOTE</a>
+                        <li className='link-list-element'>
+                            <a href='#'>SONDERANGEBOTE</a>
                         </li>
-                        <li className="dropdown-list-element">
+                        <li className='dropdown-list-element'>
                         <Dropdown />
                         </li>
                     </ul>  

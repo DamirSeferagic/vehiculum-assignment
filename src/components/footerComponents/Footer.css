@@ -11,6 +11,7 @@
   background-image: url("./images/bitmap_2.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .footer-container img {
@@ -29,6 +30,7 @@
 }
 
 .footer-container button {
+  margin-top: 1rem;
   background-image: url("../components/bodyComponents/JokeContainer/JokeBox/images/path-copy-2.png");
   background-repeat: no-repeat;
   background-color: transparent;
@@ -51,7 +53,7 @@
 .footer-container .footer-text {
   width: 200px;
   position: relative;
-  top: 45%;
+  top: 37%;
   left: 15%;
 }
 /*# sourceMappingURL=Footer.css.map */

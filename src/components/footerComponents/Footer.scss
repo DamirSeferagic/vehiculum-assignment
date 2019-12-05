@@ -9,6 +9,7 @@
     background-image: url('./images/bitmap_2.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 
     img {
         height: -webkit-fill-available;
@@ -25,13 +26,14 @@
     }
 
     button {
+        margin-top: 1rem;
         @include transparentButton;
         width: 130px;
     }
     .footer-text {
         width: 200px;
         position: relative;
-        top: 45%;
+        top: 37%;
         left: 15%;
 
     }
