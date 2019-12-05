@@ -19,10 +19,7 @@ class Banner extends Component {
                                 <SearchBar />
                             )}
                             />
-
                     </div>
- 
-
                 </header>
             </div>
 

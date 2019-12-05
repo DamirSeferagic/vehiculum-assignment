@@ -1,0 +1,54 @@
+@import '../../styles/mixins.scss';
+@import '../../styles/variables.scss';
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-image: url('./images/bitmap_2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    img {
+        height: -webkit-fill-available;
+    }
+    span {
+        color: $menuTextColor;
+        font-size: 16px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        font-family: $monseratFont;
+    }
+
+    button {
+        background-image: url('../bodyComponents/JokeContainer/JokeBox/images/path-copy-2.png');
+        background-repeat: no-repeat;
+        background-color: transparent;
+        background-position: right;
+        width: 165px;
+        background-color: transparent;
+        border: none;
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        color: #cfb995;
+        text-align: left;
+        padding-left: 0;
+    }
+    .footer-text {
+        width: 200px;
+        position: relative;
+        top: 45%;
+        left: 15%;
+
+    }
+
+}

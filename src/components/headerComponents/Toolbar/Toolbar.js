@@ -37,7 +37,7 @@ class Toolbar extends Component {
                             )}
                             />   
                                         
-                        <div class="smallLogo">
+                        <div className="smallLogo">
                             <img src={logoSmall}/>
                                 <a href="https://www.vehiculum.de/"/>
                         </div>                        

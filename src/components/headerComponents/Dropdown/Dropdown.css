@@ -1,7 +1,7 @@
 .jokesDropdown {
   background-color: #cfb995;
   height: 100%;
-  font-family: Monserat;
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -22,7 +22,7 @@
 .dropdownList {
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 100%;
+  min-width: 192px;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
@@ -36,10 +36,10 @@
 }
 
 .dropdown-item {
-  color: black;
+  color: black !important;
 }
 
 .newJokeLink {
-  color: #cfb995;
+  color: #cfb995 !important;
 }
 /*# sourceMappingURL=Dropdown.css.map */

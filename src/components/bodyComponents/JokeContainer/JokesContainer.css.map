@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACb,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;CAGlB",
+    "sources": [
+        "JokesContainer.scss"
+    ],
+    "names": [],
+    "file": "JokesContainer.css"
+}

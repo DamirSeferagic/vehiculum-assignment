@@ -42,3 +42,22 @@
     @warn "Breakpoint mixin supports: xs, sm, md, lg";
   }
 }
+
+@mixin jokeText {
+  font-family: $monseratFont;  
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: $nightRider;
+}
+
+@mixin buttonGold {
+  font-family: $monseratFont;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #cfb995;
+}

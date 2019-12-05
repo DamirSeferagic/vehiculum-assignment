@@ -9,7 +9,7 @@ class SmallSearchBar extends Component {
             <div   className="search-box-small">
                 <input 
                     type="text" 
-                    class="search-input" 
+                    className="search-input" 
                     placeholder="Search..." />    
                 <SearchButton />
             </div>            

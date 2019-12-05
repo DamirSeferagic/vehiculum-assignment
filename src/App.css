@@ -42,9 +42,10 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-padding-start: 1em;
+          padding-inline-start: 1em;
+  -webkit-padding-end: 1em;
+          padding-inline-end: 1em;
 }
 
 .side-drawer li {
@@ -59,6 +60,15 @@
 
 .side-drawer a:hover, .side-drawer a:active {
   color: #fa923f;
+}
+
+.logo-list-element {
+  padding-bottom: 2em;
+}
+
+.link-list-element {
+  border-bottom: 1px solid wheat;
+  padding-bottom: 0.5em;
 }
 
 @media (min-width: 769px) {
@@ -86,6 +96,7 @@
   padding: 0px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  padding-right: 4rem;
 }
 
 .toggle-button:focus {
@@ -111,6 +122,7 @@
   width: 100%;
   background-color: #303030;
   height: 60px;
+  z-index: 200;
 }
 
 .toolbar_navigation {
@@ -122,6 +134,8 @@
       -ms-flex-align: center;
           align-items: center;
   padding: 0rem 1rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .toolbar_logo {
@@ -150,7 +164,7 @@
 
 .toolbar_navigation_items ul li a {
   text-decoration: none;
-  font-family: Monserat;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   font-stretch: normal;
@@ -168,9 +182,73 @@
   margin-right: 6%;
 }
 
+.mobileSearchBar {
+  display: none;
+}
+
+.smallLogo {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .toolbar_navigation_items {
     display: none;
   }
+  .mobileSearchBar {
+    display: inline;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+  .smallLogo {
+    margin-left: 6%;
+    display: inline;
+  }
+  .toolbar_logo {
+    display: none;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+  .spacer {
+    display: none;
+  }
+}
+
+.wrapper {
+  margin: 0 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.category-title {
+  margin-left: 10%;
+  width: 119px;
+  height: 22px;
+  border-radius: 11px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #3ae57f;
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 1.83;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.view-more-button {
+  margin: 4rem 0;
+}
+
+.footer {
+  height: 250px;
 }
 /*# sourceMappingURL=App.css.map */

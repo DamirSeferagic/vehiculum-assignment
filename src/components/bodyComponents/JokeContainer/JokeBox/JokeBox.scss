@@ -1,0 +1,45 @@
+@import '../../../../styles/variables.scss';
+@import '../../../../styles/mixins.scss';
+
+.joke-box-container {
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    flex: 23% 1;
+    padding: 1rem;
+    min-width: 21rem;
+    height: 264px;
+    border-radius: 2px;
+    margin: 0.5rem;
+    background-color: #ffffff;
+    flex-grow: 1;
+    p {
+        margin: 0;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.57;
+    }
+}
+
+.joke-title {
+    display: flex;
+    max-height: 40px;
+    img {
+        object-fit: contain;
+        padding-right: 0.5rem;
+    }
+    h1 {
+        font-size: 16px;
+        @include jokeText;
+    }
+}
+.see-stats-button {
+    display: flex;
+    align-self: flex-end;
+    margin-left: auto;
+    button {
+        background-color: transparent;
+        border: none;
+        @include buttonGold;
+    }
+}

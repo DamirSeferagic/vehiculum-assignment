@@ -1,0 +1,75 @@
+.joke-box-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -webkit-box-flex: 23%;
+      -ms-flex: 23% 1;
+          flex: 23% 1;
+  padding: 1rem;
+  min-width: 21rem;
+  height: 264px;
+  border-radius: 2px;
+  margin: 0.5rem;
+  background-color: #ffffff;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.joke-box-container p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.57;
+}
+
+.joke-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-height: 40px;
+}
+
+.joke-title img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding-right: 0.5rem;
+}
+
+.joke-title h1 {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #303030;
+}
+
+.see-stats-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-left: auto;
+}
+
+.see-stats-button button {
+  background-color: transparent;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #cfb995;
+}
+/*# sourceMappingURL=JokeBox.css.map */

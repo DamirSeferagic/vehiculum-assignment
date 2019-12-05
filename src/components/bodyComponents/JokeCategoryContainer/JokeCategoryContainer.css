@@ -1,0 +1,36 @@
+.category-button {
+  min-width: 206px;
+  height: 48px;
+  border-radius: 2px;
+  margin: 2em;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 10rem;
+  background-origin: content-box;
+}
+
+.view-all-button {
+  color: #cfb995 !important;
+  border: 1px solid #cfb995 !important;
+}
+
+.category-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 2em 7%;
+}
+/*# sourceMappingURL=JokeCategoryContainer.css.map */

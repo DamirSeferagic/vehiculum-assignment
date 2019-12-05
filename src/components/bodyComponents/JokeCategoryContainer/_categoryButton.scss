@@ -1,0 +1,20 @@
+@import '../../../styles/variables.scss';
+.category-button {
+    min-width: 206px;
+    height: 48px;
+    border-radius: 2px;
+    margin: 2em;
+    font-family: $monseratFont;
+    font-size: 14px;
+    font-weight: 600;
+    color: $menuTextColor;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 10rem;
+    background-origin: content-box;
+}
+.view-all-button {
+    color: #cfb995 !important;
+    border: 1px solid #cfb995 !important;
+
+}

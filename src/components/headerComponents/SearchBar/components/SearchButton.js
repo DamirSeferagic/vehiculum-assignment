@@ -4,7 +4,7 @@ import React, {Component } from 'react';
 class SearchButton extends Component {
     render() {
         return (
-            <input type="submit" value="" class="search-btn"/>
+            <input type="submit" value="" className="search-btn"/>
         )
     }
 }
